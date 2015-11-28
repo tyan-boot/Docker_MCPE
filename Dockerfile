@@ -1,4 +1,4 @@
-FROMcentos
+FROM centos
 
 MAINTAINER Boot tyanboot@outlook.com
 
