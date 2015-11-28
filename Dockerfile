@@ -2,7 +2,7 @@ FROM centos
 
 MAINTAINER Boot tyanboot@outlook.com
 
-RUN yum install -y perl gcc g++ make automake libtool autoconf m4 wget bzip2 openssh openssh-server
+RUN yum install -y perl gcc g++ make automake libtool autoconf m4 wget bzip2 openssh openssh-server passwd
 
 WORKDIR /home
 
