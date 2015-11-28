@@ -9,7 +9,7 @@ WORKDIR /home
 RUN wget -O pm.sh http://get.pocketmine.net
 RUN bash pm.sh -r
 
-EXPORT 22:22
-EXPORT 19132:19132
+EXPOSE 22:22
+EXPOSE 19132:19132
 
 COPY ./sshd_config /etc/ssh/sshd_config
